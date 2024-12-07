@@ -1,81 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christine Lee - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="side-nav">
-            <ul>
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-        </nav>
-
-        <!-- Bio Section -->
-        <section id="bio" class="section">
-            <h1>Bio</h1>
-            <div class="content">
-                <div class="bio-text">
-                    <p>Hi, I'm Christine Lee, a Computational Media major at Georgia Tech. I am passionate about combining creativity with technology, and I aspire to work in marketing and branding. My goal is to create aesthetic solutions that help clients express their visions while connecting with audiences in unique and meaningful ways.</p>
-                </div>
-                <div class="bio-image">
-                    <img src="your-image-url-here.jpg" alt="Christine Lee" class="profile-image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Interests Section -->
-        <section id="interests" class="section">
-            <h1>Interests</h1>
-            <div class="content">
-                <div class="interest-text">
-                    <p>When I'm not working on creative projects, I love watching independent films and scrapbooking. These hobbies allow me to explore different storytelling techniques and keep my creativity flowing.</p>
-                </div>
-                <div class="interest-image">
-                    <img src="interest-image1.jpg" alt="Independent Films" class="interest-image">
-                    <img src="interest-image2.jpg" alt="Scrapbooking" class="interest-image">
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience Section -->
-        <section id="experience" class="section">
-            <h1>Experience & Resume</h1>
-            <div class="content">
-                <div class="experience-text">
-                    <p><strong>Junior Design Chair</strong> - Georgia Tech Asian American Student Association</p>
-                    <p>In this role, I lead creative design initiatives and collaborate with a team to design promotional materials for events and initiatives, helping enhance the organization's presence on campus.</p>
-
-                    <p><strong>Marketing Intern</strong> - uniBuzzy (Startup)</p>
-                    <p>I worked on app development using Vue and designed frontend features with Figma. uniBuzzy is a social app that connects students on campus, and I was heavily involved in branding and creating the user experience to make the app appealing to students.</p>
-                    <a href="resume-link.pdf" class="resume-download">Download Resume</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <h1>Projects</h1>
-            <div class="content projects-grid">
-                <div class="project">
-                    <img src="project1-image.jpg" alt="uniBuzzy Social Media Posts">
-                    <h2>Social Media Campaign - uniBuzzy</h2>
-                    <p>I developed a series of engaging social media posts that helped drive student engagement with the uniBuzzy app. These designs balanced creativity with brand consistency, effectively reaching the target audience.</p>
-                </div>
-                <div class="project">
-                    <img src="project2-image.jpg" alt="Portfolio for Graphic Design Class">
-                    <h2>Portfolio - Graphic and Visual Design (LMC 3402)</h2>
-                    <p>This portfolio was created as part of my coursework in LMC 3402. It showcases my design skills in creating aesthetic and functional layouts using modern design principles.</p>
-                </div>
-            </div>
-        </section>
+  <nav>
+    <div class="left">
+      <a href="/">Christine Lee</a>
     </div>
+  
+    <div class="right">
+      <!-- GitHub -->
+      <a href="https://github.com/clee829" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/christine-lee-gt2025/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <!-- Email -->
+      <a href="mailto:unis4christine@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Christine 👋</h2>
+        <p>I'm a Computational Media major at Georgia Tech with a passion for creativity, technology, and storytelling. I love working on projects that connect people and bring innovative ideas to life, especially in the realm of marketing and design.</p>
+
+        <div class="links">
+
+          <a href="#interests">
+            <i class="fa-solid fa-user"></i>
+            <span>Interests</span>
+          </a>
+          
+          <a href="#experience">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Experience</span>
+          </a>
+
+          <a href="#projects">
+            <i class="fa-solid fa-lightbulb"></i>
+            <span>Projects</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/christineheadshot.jpg" alt="christine lee headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: INTERESTS -->
+    <section id="interests" class="interests-section">
+      <div class="text">
+        <h2>Interests</h2>
+      <div class="text">
+        I enjoy watching independent films, diving into creative arts, and reading thought-provoking books. These hobbies inspire my work and provide fresh perspectives for storytelling and design. Exploring diverse narratives and artistic styles helps me stay imaginative and innovative in my projects.
+      </div>
+      <br>
+      <br>
+
+      <div class="images">
+        <div class="image-container">
+          <img src="images/eternalsunshine.jpg" alt="Eternal Sunshine of the Spotless Mind">
+          <p>Eternal Sunshine of the Spotless Mind (Film)</p>
+        </div>
+        <div class="image-container">
+          <img src="images/beforethecoffee.jpg" alt="Before the Coffee Gets Cold">
+          <p>Before the Coffee Gets Cold (Book)</p>
+        </div>
+        <div class="image-container">
+          <img src="images/strawberry.png" alt="Strawberry Drawing">
+          <p>Strawberry Drawing (Artwork)</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- SECTION 3: EXPERIENCE -->
+<section id="experience" class="experience-section">
+    <h2>Experience</h2>
+
+    <div class="text">
+        My professional journey has allowed me to explore diverse roles where creativity and collaboration are key. From leading marketing strategies at uniBuzzy to designing impactful visuals for Georgia Tech's Asian American Student Association, I’ve honed my skills in branding, storytelling, and user-centric design. Tools like Figma and Canva empower me to bring ideas to life with precision and creativity.      </div>
+
+    <br>
+    <br>
+
+    <div class="cells">
+      <!-- uniBuzzy Logo -->
+      <div class="cell">
+        <img src="images/unibuzzylogo.jpg" alt="uniBuzzy logo">
+        <span>uniBuzzy</span>
+        <!-- <p>Marketing and Outreach Director</p> -->
+      </div>
+  
+      <!-- Georgia Tech AASA Logo -->
+      <div class="cell">
+        <img src="images/gtaasa.png" alt="AASA logo">
+        <span>Georgia Tech AASA</span>
+        <!-- <p>Junior Design Chair</p> -->
+      </div>
+  
+      <!-- Canva Logo -->
+      <div class="cell">
+        <img src="images/canvalogo.png" alt="Canva logo">
+        <span>Canva</span>
+        <!-- <p>Designing promotional content</p> -->
+      </div>
+  
+      <!-- Figma Logo -->
+      <div class="cell">
+        <img src="images/figmalogo.png" alt="Figma logo">
+        <span>Figma</span>
+        <!-- <p>Mockup creation for web and app interfaces</p> -->
+      </div>
+    </div>
+  </section>
+
+    <!-- SECTION 4: PROJECTS -->
+    <!-- SECTION 4: PROJECTS -->
+<section id="projects" class="projects-section">
+    <div class="text">
+      <h2>Projects</h2>
+      <p>The projects I’ve worked on reflect my passion for blending creativity and technology. From leading marketing initiatives with uniBuzzy to crafting visually engaging designs, each project showcases my dedication to meaningful, innovative solutions. These experiences highlight my skills in design, storytelling, and collaboration.</p>
+    </div>
+  
+    <!-- Buttons Below Description -->
+    <div class="project-buttons">
+      <!-- uniBuzzy Figma Project -->
+      <div class="project">
+        <a href="https://www.figma.com/design/ZKw5PCrfAOTNKr9YXAoU2S/uniBuzzy-UI%2FUX?node-id=0-1&t=ABCKXq92xDT0TdQu-1" target="_blank" rel="noopener noreferrer" class="button">
+          View uniBuzzy UI/UX
+        </a>
+        <p>The uniBuzzy UI/UX project showcases the interface design for our web platform, emphasizing user-friendly navigation and a cohesive aesthetic.</p>
+      </div>
+  
+      <!-- Neuro Narratives Figma Project -->
+      <div class="project">
+        <a href="https://www.figma.com/design/wyq85E155b2ry3bEdA9mvI/Neuro-Narratives?node-id=0-1&t=CzSabd6RiVh9N0K3-1" target="_blank" rel="noopener noreferrer" class="button">
+          View Neuro Narratives
+        </a>
+        <p>The Neuro Narratives speculative design project, created for my 2700 class, features a personality quiz-based website designed to explore user identities.</p>
+      </div>
+  
+      <!-- uniBuzzy Instagram Project -->
+      <div class="project">
+        <a href="https://www.instagram.com/unibuzzy/" target="_blank" rel="noopener noreferrer" class="button">
+          View uniBuzzy Social Media
+        </a>
+        <p>As Marketing Director, I created Instagram posts to promote marketing tabling events and drive engagement with uniBuzzy’s audience.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+    <!-- SECTION 5: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+            Feel free to reach out! Whether you have questions, collaboration ideas, or just want to connect, I'd love to hear from you. Let’s create something amazing together.        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
 
